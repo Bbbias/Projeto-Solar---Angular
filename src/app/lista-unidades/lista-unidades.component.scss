@@ -1,0 +1,81 @@
+*{
+    font-size: 0.9rem;
+    margin-top: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    margin-left: 18rem;
+    max-width: 70%;
+    margin-top: 1%;
+}
+
+tbody{
+    box-shadow: 0px 3px 8px rgb(219, 219, 219);
+}
+
+th{
+    border-top: none;
+}
+
+td{
+    color: gray;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+h4{
+    font-weight: bold;
+    margin-left: 18rem;
+    max-width: 70%;
+    margin-top: 5%;
+    font-size: 1.2rem;
+}
+
+button{
+    height: 2rem;
+    color: white;
+    border-radius: 2px;
+    text-align: start;
+    border: none;
+    margin-left: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.editar{
+    background-color: rgb(133, 163, 89);
+}
+.editar:hover{
+    background-color: rgb(104, 136, 55);
+}
+
+.remover{
+    background-color: rgb(219, 61, 61);
+}
+.remover:hover{
+    background-color: rgb(182, 0, 0);
+}
+
+.criar{
+    height: 2.4rem;
+    width: 10rem;
+    background-color: #2c5ae4;
+    color: white;
+    border-radius: 10px;
+    text-align: start;
+    border: none;
+    text-align: center;
+    position: fixed; 
+    top: 75%;
+    left: 77%;
+}
+.criar:hover{
+    background-color: #2148be;
+}

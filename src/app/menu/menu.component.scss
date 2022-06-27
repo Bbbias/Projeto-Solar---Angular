@@ -1,0 +1,61 @@
+.menu{
+    width: 12%;
+    min-width: 9rem;
+    min-height: 100vh;
+    float: left;
+    margin-right: 2.7rem;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif; 
+    font-size: small; 
+}
+
+.logo{
+    position: fixed;
+    left: 3.2rem;
+    height: 7rem;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    position: fixed;
+}
+
+.dashboard{
+    top: 9rem;
+}
+
+.unidades{
+    top: 13rem;
+}
+
+.energia{
+    top: 17rem;
+}
+
+.atalhos{
+    position: fixed;
+    height: 7rem;
+}
+
+.atalho{
+    height: 2.3rem;
+    width: 8rem;
+    position: fixed;
+    left: 2.5rem;
+    text-align: center;
+}  a:hover{
+.atalho{
+    background-color: rgb(79, 194, 156);
+    border-radius: 8px;
+  
+    color: white;
+}
+}
+
+

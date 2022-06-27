@@ -1,0 +1,21 @@
+<div class="img1"></div>
+<div class="logo1"></div>
+
+<form #validation="ngForm" (ngSubmit)="login(validation)">
+    
+    <div class="form-group">
+
+        <h5>Seja bem vindo</h5>
+
+        <label class="fa fa-envelope icon"></label>
+        <input type="email" class="email" name="email" placeholder="E-mail" #email="ngModel" ngModel email="true" required>
+
+        <label class="fa fa-user icon"></label>
+        <input type="password" class="password" name="password" placeholder="Senha" ngModel minlength="6" maxlength="6" required>
+
+        <button>Entrar</button>
+        
+    </div>
+    
+</form>
+    

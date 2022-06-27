@@ -1,0 +1,62 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;  
+    margin-top: 1%;
+}
+
+h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+select{
+    height: 2rem;
+    width: 11rem;
+    outline: none;
+    margin-top: 0.1rem;
+    color: rgb(146, 146, 146);
+}
+
+input[type=month]{
+    height: 1.8rem;
+    width: 8rem;
+    outline: none;
+    color: rgb(146, 146, 146);
+}
+
+input[type=text]{
+    height: 2.1rem;
+    width: 11rem;
+    outline: none;
+    margin-top: 0.1rem;
+    margin-bottom: 3rem;
+    color: rgb(146, 146, 146);
+}
+
+button{
+    height: 2.3rem;
+    width: 10rem;
+    background-color: #2c5ae4;
+    color: white;
+    border-radius: 8px;
+    text-align: start;
+    border: none;
+    font-size: 0.95rem;
+}
+button:hover{
+    background-color: #2148be;
+}
+
+form{
+    max-width: 11rem;
+    margin: 1rem;
+    position: absolute;
+    top: 5rem;
+    left: 18rem;
+}
+
+label{
+    margin-top: 2.5rem;
+    font-weight: bolder;
+}

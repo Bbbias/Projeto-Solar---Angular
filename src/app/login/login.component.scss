@@ -1,0 +1,74 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: serif;
+  }
+  
+  .img1 {
+    width: 50%;
+    height: 100vh;
+    background: url(img1.svg);
+  }
+
+  .logo1 {
+    background: url(logo.svg);
+    width: 9rem;
+    height: 23vh;
+    position: fixed;
+    right: 21%;
+    bottom: 63%;
+    min-height: 8rem;
+    min-width: 9rem;
+  }
+
+  h5{
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: 33%;
+  }
+
+  form {
+      position: fixed;
+      top: 41%;
+      right: 13%;
+      left: 63%;
+  }
+
+  .form-group label {
+    position: absolute;
+}
+
+  .icon {
+    padding: 10px;
+    min-width: 40px;
+    position: fixed;
+    margin-top: 9px;
+    margin-left: 14px;
+    color: rgb(185, 185, 185);
+}
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 0.5rem;
+    border-radius: 5px;   
+}
+::placeholder{
+    position: fixed;
+    top: 28%;
+    right: 68%;
+    font-size: small;
+}
+
+button {
+    padding: 10px;
+    margin: 0.5rem;
+    width: 100%;
+    background-color: rgb(79, 194, 156);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+button:hover{
+    background-color: rgb(63, 156, 125);
+}

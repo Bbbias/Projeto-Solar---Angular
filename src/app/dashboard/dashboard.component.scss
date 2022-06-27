@@ -1,0 +1,74 @@
+*{
+    margin-top: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+h6{
+    color: gray;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.card{
+    height: 6.5rem;
+    width: 11rem;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    position: relative;
+    
+}
+.card:hover{
+    color: purple;
+    border: 1px solid purple;
+    
+    h6{
+        color: purple;
+    }
+}
+
+#card1{
+    top: 5rem;
+    left: 5rem;
+}
+
+#card2{
+    top: -2.5rem;
+    left: 21.3rem;
+}
+
+#card3{
+    top: -10rem;
+    left: 36.3rem;
+}
+
+#card4{
+    top: -17.5rem;
+    left: 53rem;
+}
+
+table{
+    position: fixed;
+    max-width: 30%;
+    margin-left: 18rem;
+    box-shadow: 0px 3px 8px rgb(219, 219, 219);  
+}
+
+#table1{
+    right: 50%;
+    top: 20rem;
+}
+
+#table2{
+    right: 16.6%;
+    top: 20rem;
+}
+
+td{
+    color: gray;
+}

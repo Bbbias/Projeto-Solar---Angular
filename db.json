@@ -1,0 +1,32 @@
+{
+  "unidades": [
+    {
+      "apelido": "Unidade 1",
+      "local": "Rua Silva 5",
+      "marca": "Toke",
+      "modelo": "220w",
+      "status": true,
+      "id": 1
+    },
+    {
+      "apelido": "Unidade 2",
+      "local": "Rua Souza 7",
+      "marca": "Vait",
+      "modelo": "155w",
+      "id": 2
+    }
+  ],
+  "geracoes": [
+    {
+      "data": "2022-02",
+      "totalKW": "95",
+      "id": 1
+    },
+    {
+      "geradora": "Unidade 2",
+      "data": "2022-07",
+      "totalKW": "178",
+      "id": 2
+    }
+  ]
+}

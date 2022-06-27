@@ -1,0 +1,21 @@
+<app-menu></app-menu>
+<h3>Lançamento de geração mensal</h3>
+
+<form action="">
+
+<label for="geradora">Unidade geradora:</label>
+<select [(ngModel)]="geradora" name="geradora">
+    <option *ngFor="let dados of unidades" >
+      {{dados.apelido}}
+    </option>
+ </select>
+
+<label for="data">Mês/ano</label>
+<input type="month" [(ngModel)]="data" name="data" placeholder="02/2022">
+
+<label for="totalKW">Total kw gerado</label>
+<input type="text" [(ngModel)]="totalKW" name="totalKW" placeholder="80">
+
+<button class="bntSalve" (click)="post()">Cadastrar</button>
+
+</form>

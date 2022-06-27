@@ -1,0 +1,32 @@
+<app-menu></app-menu>
+
+<h2>Unidades</h2>
+
+<h4>Lista de unidades</h4>
+
+<table class="table table-hover">
+    <thead>
+        <tr height=50 scope="col">
+            <th class="titulo">ID</th>
+            <th class="titulo">Apelido</th>
+            <th class="titulo">Local</th>
+            <th class="titulo">Marca</th>
+            <th class="titulo">Modelo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr height=50 scope="row" *ngFor="let dados of unidades">
+            <td WIDTH=280 class="ids">{{dados.id}}</td>
+            <td WIDTH=280>{{dados.apelido}}</td>
+            <td WIDTH=280>{{dados.local}}</td>  
+            <td>{{dados.marca}}</td>
+            <td WIDTH=280>{{dados.modelo}}</td>
+            <td><a routerLink="/atualizarUnidades/{{dados.id}}"><button class="editar">Editar</button></a></td>
+            <td><button class="remover" (click)="onDelete(dados)">Remover</button></td>
+        </tr>
+    </tbody>
+</table>
+
+<a routerLink="/criarUnidades"><button class="criar">Nova unidade</button></a>
+
+

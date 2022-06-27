@@ -1,0 +1,23 @@
+<app-menu></app-menu>
+    <h2>Unidades</h2>
+    <h3>Cadastro de Unidade Geradora</h3>
+
+    <div class="geral">
+
+        <label for="apelido">Apelido</label>
+        <input class="unidade" type="text" [(ngModel)]="apelido" name="apelido" placeholder="Apelido">
+
+        <label for="local">Local</label>
+        <input type="text" [(ngModel)]="local" name="local" placeholder="Rua Alberto 430">
+
+        <label for="marca">Marca</label>
+        <input type="text" [(ngModel)]="marca" name="marca" placeholder="Resun">
+
+        <label for="modelo">Modelo</label>
+        <input type="text" [(ngModel)]="modelo" name="modelo" placeholder="155w">
+
+        <input type="checkbox" [(ngModel)]="status" name="status" placeholder="checkbox">
+        <label class="ativo" for="status">Ativo</label>
+      
+        <button (click)="post()">salvar</button>
+  </div>

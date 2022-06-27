@@ -1,0 +1,50 @@
+<app-menu></app-menu>
+
+<h2>Dashboard</h2>
+
+<div class="card" id="card1">
+    <h6>Total unidades</h6>
+    {{totalUnidades}}
+</div>
+<div class="card" id="card2">
+    <h6>Unidades ativas</h6>
+    {{statusTrue}}
+</div>
+<div class="card" id="card3">
+    <h6>Unidades inativas</h6>
+    {{statusFalse}}
+</div>
+<div class="card" id="card4">
+    <h6>Média de energia</h6>
+    {{total}}/{{totalUnidades}} kw
+</div>
+
+<table class="table table-bordered table-hover" id="table1">
+   <thead>
+        <tr height=50 scope="col">
+           <th class="titulo">Unidades</th>
+           <th class="titulo">Ativo</th>
+       </tr>
+    </thead> 
+    <tbody>
+        <tr height=50 scope="row" *ngFor="let dados of unidades">
+            <td WIDTH=280 class="ids">{{dados.apelido}}</td>
+            <td WIDTH=280>{{dados.status}}</td>  
+        </tr>
+    </tbody>
+</table>
+
+<table class="table table-bordered  table-hover" id="table2">
+    <thead>
+        <tr height=50 scope="col">
+            <th class="titulo">Data</th>
+            <th class="titulo">Energia gerada</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr height=50 scope="row" *ngFor="let dados of geracoes">
+            <td WIDTH=280>{{dados.data}}</td>
+            <td WIDTH=280>{{dados.totalKW}} kw</td>
+        </tr>  
+    </tbody>
+</table>
